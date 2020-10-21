@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Quiz</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer="true"></script>
+</head>
+
+<body>
+  <!--
+
+    ******************************************
+    DO NOT TRANSCRIBE THE ARTICLE YOURSELF!!!!
+    ******************************************
+
+    You do not have to type in all of the text on the page!
+
+    The contents of the article is in `index-content.txt`, which is
+    included in this directory. Copy and paste the contents of that file into
+    this HTML file as needed. You should only need to add HTML to markup the
+    content.
+
+  -->
+  <div class="container">
+    <div class="quiz-header">
+      <h1>WPR</h1>
+      <div id="MERN-stack">
+        <p>M</p>
+        <p>E</p>
+        <p>R</p>
+        <p>N</p>
+      </div>
+    </div>
+
+    <div class="quiz-image">
+      <p id="html-quiz">HTML Quiz</p>
+    </div>
+  
+    <div id="quiz-introduction">
+      <div class="introduction-container">
+        <p id="quiz-author">By Do Duc Manh</p>
+  
+        <h1>The Test</h1>
+        <p>The test contains 10 questions and there is no time limit.</p>
+        <p>The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.</p>
+  
+        <h1>Count Your Score</h1>
+        <p>You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 10 points.</p>
+      </div>
+  
+      <div class="quiz-button_area">
+        <h1>Start the quiz</h2>
+        <p>Good luck!</p>
+        <button type="submit" class="blue-button" id="button_start">Start the HTML quiz <span>&#8250;</span></button>
+      </div>
+    </div>
+
+    <div id="quiz-attempt" class="hidden">
+      <div id="quiz-form">
+        <!-- <div class="quiz-container">
+          <h1>Question <span id="quiz-question_number">1</span> of 10</h1>
+          <p id="quiz-question_title">Question 1?</p>
+          <div>
+            <input type="radio" name="option" id="quiz_1_option_1">
+            <label for="quiz_1_option_1">Option 1</label>
+          </div>
+          <div>
+            <input type="radio" name="option" id="quiz_1_option_2">
+            <label for="quiz_1_option_2">Option 2</label>
+          </div>
+          <div>
+            <input type="radio" name="option" id="quiz_1_option_3">
+            <label for="quiz_1_option_3">Option 3</label>  
+          </div>
+          <div>
+            <input type="radio" name="option" id="quiz_1_option_4">
+            <label for="quiz_1_option_4">Option 4</label>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="quiz-button_area">
+        <button type="submit" class="green-button" id="button_submit">Submit your answers <span>&#8250;</span></button>
+      </div>
+    </div>
+
+    <div id="quiz-review" class="hidden">
+      <div id="quiz-form_review">
+        <!-- <div class="quiz-container">
+          <h1>Question <span id="quiz-question_number">1</span> of 10</h1>
+          <p id="quiz-question_title">Question 1?</p>
+          <div>
+            <input type="radio" name="option" id="quiz_1_option_1">
+            <label for="quiz_1_option_1">Option 1</label>
+            <p class="badge-wrong">Your answer</p>
+          </div>
+          <div>
+            <input type="radio" name="option" id="quiz_1_option_2">
+            <label for="quiz_1_option_2">Option 2</label>
+            <p class="badge-right">Correct answer</p>
+          </div>
+          <div>
+            <input type="radio" name="option" id="quiz_1_option_3">
+            <label for="quiz_1_option_3">Option 3</label>  
+          </div>
+          <div>
+            <input type="radio" name="option" id="quiz_1_option_4">
+            <label for="quiz_1_option_4">Option 4</label>
+          </div>
+        </div> -->
+      </div>
+      
+      <div class="quiz-button_area">
+        <h1>Result:</h1>
+        <p id="result_1">1/10</p>
+        <p id="result_2">10%</p>
+        <p id="result_3">Practice more to improve it :D</p>
+        <button type="submit" class="blue-button" id="button_restart">Try Again</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
